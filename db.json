@@ -1,0 +1,259 @@
+{
+  "goalkeepers": [
+    {
+      "id": 1,
+      "name": "Oblak",
+      "club": "Atletico Madrid",
+      "pace": 40,
+      "defending": 94,
+      "shooting": 35,
+      "passing": 60
+    },
+    {
+      "id": 2,
+      "name": "Courtois",
+      "club": "Real Madrid",
+      "pace": 37,
+      "defending": 90,
+      "shooting": 39,
+      "passing": 66
+    },
+    {
+      "id": 3,
+      "name": "DeGea",
+      "club": "Manchester United",
+      "pace": 37,
+      "defending": 83,
+      "shooting": 42,
+      "passing": 63
+    },
+    {
+      "id": 4,
+      "name": "Neuer",
+      "club": "Bayern",
+      "pace": 44,
+      "defending": 92,
+      "shooting": 50,
+      "passing": 70
+    },
+    {
+      "id": 5,
+      "name": "Mendy",
+      "club": "Chelsea",
+      "pace": 62,
+      "defending": 80,
+      "shooting": 40,
+      "passing": 63
+    },
+    {
+      "id": 6,
+      "name": "Donnarumma",
+      "club": "Milan",
+      "pace": 38,
+      "defending": 94,
+      "shooting": 43,
+      "passing": 60
+    }
+  ],
+
+  "defenders": [
+    {
+      "id": 1,
+      "name": "Ramos",
+      "club": "PSG",
+      "pace": 77,
+      "defending": 94,
+      "shooting": 80,
+      "passing": 82
+    },
+    {
+      "id": 2,
+      "name": "Pique",
+      "club": "Barcelona",
+      "pace": 70,
+      "defending": 89,
+      "shooting": 73,
+      "passing": 87
+    },
+    {
+      "id": 3,
+      "name": "Varane",
+      "club": "Real Madrid",
+      "pace": 87,
+      "defending": 91,
+      "shooting": 65,
+      "passing": 77
+    },
+    {
+      "id": 4,
+      "name": "Maguire",
+      "club": "Manchester United",
+      "pace": 71,
+      "defending": 86,
+      "shooting": 66,
+      "passing": 80
+    },
+    {
+      "id": 5,
+      "name": "Chiellini",
+      "club": "Juventus",
+      "pace": 73,
+      "defending": 96,
+      "shooting": 55,
+      "passing": 74
+    },
+    {
+      "id": 6,
+      "name": "Dias",
+      "club": "Manchester City",
+      "pace": 79,
+      "defending": 92,
+      "shooting": 77,
+      "passing": 82
+    }
+  ],
+
+  "leftmids": [
+    {
+      "id": 1,
+      "name": "Pedri",
+      "club": "Barcelona",
+      "pace": 81,
+      "defending": 72,
+      "shooting": 77,
+      "passing": 90
+    },
+    {
+      "id": 2,
+      "name": "Verrati",
+      "club": "PSG",
+      "pace": 77,
+      "defending": 83,
+      "shooting": 66,
+      "passing": 87
+    },
+    {
+      "id": 3,
+      "name": "Pogba",
+      "club": "Manchester United",
+      "pace": 75,
+      "defending": 80,
+      "shooting": 89,
+      "passing": 86
+    },
+    {
+      "id": 4,
+      "name": "Kroos",
+      "club": "Real Madrid",
+      "pace": 65,
+      "defending": 77,
+      "shooting": 85,
+      "passing": 95
+    },
+    {
+      "id": 5,
+      "name": "De Bruyne",
+      "club": "Manchester City",
+      "pace": 81,
+      "defending": 80,
+      "shooting": 90,
+      "passing": 93
+    }
+  ],
+
+  "rightmids": [
+    {
+      "id": 1,
+      "name": "Mahrez",
+      "club": "Manchester City",
+      "pace": 86,
+      "defending": 63,
+      "shooting": 77,
+      "passing": 82
+    },
+    {
+      "id": 2,
+      "name": "Barella",
+      "club": "Inter",
+      "pace": 81,
+      "defending": 83,
+      "shooting": 72,
+      "passing": 80
+    },
+    {
+      "id": 3,
+      "name": "Jorginho",
+      "club": "Chelsea",
+      "pace": 72,
+      "defending": 81,
+      "shooting": 66,
+      "passing": 92
+    },
+    {
+      "id": 4,
+      "name": "Saul",
+      "club": "Atletico Madrid",
+      "pace": 79,
+      "defending": 83,
+      "shooting": 77,
+      "passing": 85
+    },
+    {
+      "id": 5,
+      "name": "Di Maria",
+      "club": "PSG",
+      "pace": 88,
+      "defending": 58,
+      "shooting": 81,
+      "passing": 89
+    }
+  ],
+
+  "attackers": [
+    {
+      "id": 1,
+      "name": "Messi",
+      "club": "Barcelona",
+      "pace": 93,
+      "defending": 48,
+      "shooting": 95,
+      "passing": 93
+    },
+    {
+      "id": 2,
+      "name": "Ronaldo",
+      "club": "Juventus",
+      "pace": 94,
+      "defending": 44,
+      "shooting": 94,
+      "passing": 82
+    },
+    {
+      "id": 3,
+      "name": "Neymar",
+      "club": "PSG",
+      "pace": 96,
+      "defending": 40,
+      "shooting": 90,
+      "passing": 90
+    },
+    {
+      "id": 4,
+      "name": "Suarez",
+      "club": "Atletico Madrid",
+      "pace": 81,
+      "defending": 60,
+      "shooting": 95,
+      "passing": 81
+    },
+    {
+      "id": 5,
+      "name": "Lukaku",
+      "club": "Inter",
+      "pace": 85,
+      "defending": 60,
+      "shooting": 88,
+      "passing": 74
+    } 
+  ]
+}
