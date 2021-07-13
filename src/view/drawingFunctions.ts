@@ -1,11 +1,14 @@
-export function drawTeamCreator(host: HTMLElement, inputs: HTMLInputElement[]) {
-  const teamCreatorContainer: HTMLDivElement = document.createElement("div");
-  teamCreatorContainer.classList.add("teamCreatorDiv");
-  host.appendChild(teamCreatorContainer);
+import { Player } from "../models/player";
 
-  drawInputs(teamCreatorContainer, inputs);
+export function drawTeamCreator(host: HTMLElement, teamViewContainer:HTMLDivElement, inputs: HTMLInputElement[]) {
+    const teamCreatorContainer: HTMLDivElement = document.createElement("div");
+    teamCreatorContainer.classList.add("teamCreatorDiv");
+    host.appendChild(teamCreatorContainer);
 
-  drawTeamView(teamCreatorContainer);
+    drawInputs(teamCreatorContainer, inputs);
+
+    teamViewContainer.classList.add("teamViewDiv");
+    teamCreatorContainer.appendChild(teamViewContainer);
 }
 
 function drawInputs(host: HTMLElement, inputs: HTMLInputElement[]) {
@@ -33,8 +36,25 @@ function drawInputs(host: HTMLElement, inputs: HTMLInputElement[]) {
   });
 }
 
-function drawTeamView(host:HTMLDivElement){
-    const teamViewContainer:HTMLDivElement = document.createElement("div");
-    teamViewContainer.classList.add("teamViewDiv");
-    host.appendChild(teamViewContainer);
+export function drawPlayer(host:HTMLDivElement, player:Player, playerDetailsDiv:HTMLDivElement, playerNameLbl:HTMLLabelElement, playerStatsLbl:HTMLLabelElement){
+    
+    host.appendChild(playerDetailsDiv);
+    playerDetailsDiv.appendChild(playerNameLbl);
+    playerDetailsDiv.appendChild(playerStatsLbl);
+    if(player)
+    {
+        playerDetailsDiv.style.backgroundColor="gold";
+    
+        playerNameLbl.innerHTML = player.name;
+    
+        playerStatsLbl.innerHTML = `Pace: ${player.pace} Defending: ${player.defending} Shooting: ${player.shooting} Passing: ${player.passing}`;
+    }
+    else{
+        host.appendChild(playerDetailsDiv);
+        playerDetailsDiv.appendChild(playerNameLbl);
+        playerNameLbl.innerHTML="Player not found"
+        playerDetailsDiv.style.backgroundColor = "red";
+        playerStatsLbl.innerHTML="";
+    }
+    
 }
