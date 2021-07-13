@@ -1,0 +1,21 @@
+.teamCreatorDiv{
+    border:1px solid black;
+    width: 700px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputAndLabelDiv{
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    border: 1px solid blue;
+    margin: 5px;
+}
+
+.teamViewDiv{
+    margin: 5px;
+    background-color: rgba(33, 223, 33, 0.664);
+    height: 100%;
+}
