@@ -1,0 +1,32 @@
+{
+  "name": "RxJS-Project",
+  "version": "1.0.0",
+  "description": "Web applications development course project using RxJS, Typescript, Webpack, Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --watch --config webpack.config.js",
+    "api": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsretkovic23/RxJS-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nsretkovic23/RxJS-Project/issues"
+  },
+  "homepage": "https://github.com/nsretkovic23/RxJS-Project#readme",
+  "devDependencies": {
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.5",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
