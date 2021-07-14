@@ -1,39 +1,60 @@
-.teamCreatorDiv{
-    border:1px solid black;
-    width: 700px;
-    height: 750px;
-    display: flex;
-    flex-direction: column;
+body {
+  display: flex;
 }
 
-.inputAndLabelDiv{
-    display: flex;
-    flex-direction: column;
-    padding: 3px;
-    border: 1px solid blue;
-    margin: 5px;
+.teamCreatorDiv {
+  border: 1px solid black;
+  width: 700px;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
 }
 
-.teamViewDiv{
-    margin: 5px;
-    background-color: rgba(33, 223, 33, 0.664);
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+.inputAndLabelDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+  border: 1px solid blue;
+  margin: 5px;
 }
 
-.gkDiv, .defDiv, .midDiv, .attDiv{
-    margin: 10px 5px 70px;
-    display: flex;
-    justify-content: center;
+.teamViewDiv {
+  margin: 5px;
+  background-color: rgba(33, 223, 33, 0.664);
+  background-image: url("https://w7.pngwing.com/pngs/706/599/png-transparent-basketball-court-illustration-football-pitch-athletics-field-stadium-the-uefa-european-football-championship-a-plan-view-of-soccer-field-material-ed-angle-text-sport-thumbnail.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.midDiv{
-    justify-content: space-around;
+.gkDiv,
+.defDiv,
+.midDiv,
+.attDiv {
+  margin: 10px 5px 70px;
+  display: flex;
+  justify-content: center;
 }
-.playerDetails{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
+
+.midDiv {
+  justify-content: space-around;
+}
+.playerDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+.resultsDiv {
+  margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.resultsDiv label {
+  border: 1px solid black;
+  margin-top: 10px;
 }
