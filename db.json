@@ -255,5 +255,83 @@
       "shooting": 88,
       "passing": 74
     } 
+  ],
+
+  "teams":[
+    {
+      "id":1,
+      "name":"FC Barcelona",
+      "coefficient":318
+    },
+    {
+      "id":2,
+      "name":"Real Madrid",
+      "coefficient":320
+    },
+    {
+      "id":3,
+      "name":"PSG",
+      "coefficient":301
+    },
+    {
+      "id":4,
+      "name":"FC Bayern",
+      "coefficient":330
+    },
+    {
+      "id":5,
+      "name":"Borussia Dortmund",
+      "coefficient":270
+    },
+    {
+      "id":6,
+      "name":"Liverpool",
+      "coefficient":300
+    },
+    {
+      "id":7,
+      "name":"Atletico Madrid",
+      "coefficient":287
+    },
+    {
+      "id":8,
+      "name":"Valencia",
+      "coefficient":249
+    },
+    {
+      "id":9,
+      "name":"Manchester United",
+      "coefficient":298
+    },
+    {
+      "id":10,
+      "name":"Manchester City",
+      "coefficient":340
+    },
+    {
+      "id":11,
+      "name":"Chelsea",
+      "coefficient":307
+    },
+    {
+      "id":12,
+      "name":"West Ham",
+      "coefficient":265
+    },
+    {
+      "id":13,
+      "name":"Lyon",
+      "coefficient":270
+    },
+    {
+      "id":14,
+      "name":"Crvena Zvezda",
+      "coefficient":240
+    },
+    {
+      "id":15,
+      "name":"Zenit",
+      "coefficient":250
+    }
   ]
 }
